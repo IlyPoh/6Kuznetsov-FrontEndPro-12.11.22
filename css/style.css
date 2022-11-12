@@ -9,3 +9,64 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+.btn {
+    background: #000;
+    border: 1px solid #fff;
+    color: #fff;
+
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    transition: all .5s ease;    
+}
+.btn:hover {
+    color: #000;
+    background: #fff;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 0.05rem #fff;
+}
+
+
+.adding-elements-to-array {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.adding-elements-to-array-text {
+    font-size: 20px;
+    font-weight: 700;
+}
+.adding-elements-to-array-input {
+    background: #000;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    color: #fff;
+    transition: all .5s ease;
+}
+.adding-elements-to-array-input::placeholder {
+    color: #777;
+}
+.adding-elements-to-array-input:hover {
+    color: #000;
+    background: #fff;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 0.05rem #fff;
+}
+.adding-elements-to-array-input:hover::placeholder {
+    color: #000;
+}
+
+.buttons {
+    margin-bottom: 10px;
+}
+
+#currentArray {
+    background: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    min-height: 100px;
+    padding: 20px;;
+}

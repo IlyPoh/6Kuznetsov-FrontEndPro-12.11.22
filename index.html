@@ -4,12 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homework</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
         <h1>Hi</h1>
+        <div class="adding-elements-to-array">
+            <label for="element-of-array" class="adding-elements-to-array-text">Add element to array:</label>
+            <input id="element-of-array" type="text" class="adding-elements-to-array-input" placeholder="Type something to add">
+            <button class="btn" onclick="addingElementToArray()">Add</button>
+        </div>
+        <div class="buttons">
+            <button class="btn" onclick="sortingElements()">sort</button>
+            <button class="btn" onclick="removingElements()">remove elements</button>
+        </div>
+        <div>
+            <h2>Your array:</h2>
+            <div id="currentArray"></div>
+        </div>
     </div>
+    <script src="scripts/addElementToArray.js" defer></script>
 </body>
 </html>
