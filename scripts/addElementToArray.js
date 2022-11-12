@@ -44,14 +44,17 @@ if (!userArrayLength) {
     }
 
     console.log(userArray)
+    document.getElementById("currentArray").innerText = userArray.join(', ');
     alert(`Current array is: ${userArray.join(', ')}. Now lets sort your array`)
     userArray.sort()
 
     console.log(userArray)
+    document.getElementById("currentArray").innerText = userArray.join(', ');
     alert(`Current array is: ${userArray.join(', ')}. Now lets remove 2-4 elements`)
     userArray.splice(1, 3);
 
     console.log(userArray)
+    document.getElementById("currentArray").innerText = userArray.join(', ');
     alert(`Your final array looks like: ${userArray.join(', ')}`)
 
 }
