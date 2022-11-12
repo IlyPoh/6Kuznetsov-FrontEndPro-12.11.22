@@ -48,13 +48,14 @@ body {
 .adding-elements-to-array-input::placeholder {
     color: #777;
 }
-.adding-elements-to-array-input:hover {
+.adding-elements-to-array-input:hover, .adding-elements-to-array-input:focus-visible {
     color: #000;
     background: #fff;
     border: 1px solid #000;
     box-shadow: 0 0 0 0.05rem #fff;
+    outline: unset;
 }
-.adding-elements-to-array-input:hover::placeholder {
+.adding-elements-to-array-input:hover::placeholder, .adding-elements-to-array-input:focus-visible::placeholder {
     color: #000;
 }
 
