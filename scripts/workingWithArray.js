@@ -59,10 +59,10 @@ let users = [
 // Creating variable for final summ
 let usersBalance = 0;
 
-for (let i = 0; i <= users.length-1; i++) {
+// Variable for check
+let balanceToContinue = 2000;
 
-    // Variable for check
-    let balanceToContinue = 2000;
+for (let i = 0; i <= users.length-1; i++) {
     
     // Working with balance string (Removing symbols and converting to a number)
     let balanceStringToNumber = users[i].balance.replaceAll("$","")
